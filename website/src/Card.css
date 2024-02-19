@@ -1,0 +1,30 @@
+
+.product {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 20px;
+    width: 100%;
+    height: fit-content;
+    z-index: 1;
+    max-width: 100%;
+}
+
+.product:hover {
+    transform: scale(1.03); 
+    transition: transform 0.3s ease; 
+  }
+
+.product_info{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+.product_info h2 {
+    margin-left: 20px;
+}
+
+/* .product_info img {
+    
+} */

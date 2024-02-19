@@ -1,0 +1,275 @@
+
+
+.header{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    background-color: #0f0f0f;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+.header h1{
+    margin-left: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.header_logo{
+    border-radius: 500px;
+    height: 70px;
+    object-fit: contain;
+    margin-left:15px;
+}
+
+.nav-options{
+    display: flex;
+    color: white;
+    margin-left: auto;
+    margin-top: auto;
+    font-size: larger;
+}
+
+.nav-options h4 {
+    padding-right: 20px;
+}
+
+.background-image img{
+    width: 100%;
+    height: 700px;
+    filter: blur(8px);
+    max-width: 100%;
+}
+
+.avatar {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;  
+    left: 80%;
+}
+
+.avatar img{
+    height: 80%;
+    width: 400px;
+}
+
+.intro h2{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: aliceblue;
+    top: 45%;  /* Adjust vertical position as needed */
+    left: 40%;
+    font-size: xx-large;
+}
+
+.resume {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 75%;  
+    left: 15%;
+    background-color: green;
+    width: 150px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.resume a {
+    font-size: xx-large;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center; 
+}
+
+.linkedin {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 75%;  
+    left: 30%;
+    background-color: blue;
+    width: 150px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.linkedin a {
+    font-size: xx-large;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center; 
+}
+
+.github {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 75%;  
+    left: 45%;
+    background-color: black;
+    width: 150px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.github a {
+    font-size: xx-large;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center; 
+}
+
+.experience {
+    color: black;
+    margin-left: 10px;
+    opacity: 1;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.experience h1{
+    color: aliceblue;
+}
+
+.home_row{
+    display: flex;
+    z-index: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.project{
+    color: aliceblue;
+}
+
+/* Add this to your stylesheet */
+
+.nav-options h4 {
+    position: relative;
+    cursor: pointer;
+    transition: color 0.3s ease; /* Smooth transition for color change */
+  }
+  
+  .nav-options h4:hover {
+    color: #aaff00; /* Change the color to your desired hover color */
+  }
+  
+  /* Add animation to each link */
+  .nav-options h4:nth-child(1) {
+    animation: fadeInDown 0.5s ease;
+  }
+  
+  .nav-options h4:nth-child(2) {
+    animation: fadeInDown 0.5s ease 0.1s;
+  }
+  
+  .nav-options h4:nth-child(3) {
+    animation: fadeInDown 0.5s ease 0.2s;
+  }
+  
+  .nav-options h4:nth-child(4) {
+    animation: fadeInDown 0.5s ease 0.3s;
+  }
+
+  .education {
+    position: relative;
+    color: aliceblue;
+  }
+
+  .education h1 {
+    text-align: center;
+  }
+
+  .education h2 {
+    text-align: center;
+  }
+
+  .experience h1 {
+    text-align: center;
+  }
+
+  .skills h1 {
+    text-align: center;
+  }
+
+  .leadership h1 {
+    text-align: center;
+  }
+
+  .project h1 {
+    text-align: center;
+  }
+
+  .certifications h1 {
+    text-align: center;
+    color: aliceblue;
+  }
+
+  .ed-img {
+    height: 600px;
+    width: 80%;
+  }
+
+  .ed-img img{
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+  }
+
+  .ed-info {
+    position: absolute;
+    top: 30%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    color: aliceblue;
+    font-size: x-large;
+    font-weight: 600;
+    width: 500px;
+  }
+
+  .leadership img {
+    width: 100%;
+    height: 600px;
+  }
+
+  .leadership {
+    font-weight: 700;
+    margin-left: 1%;
+    margin-right: 1%;
+    color: aliceblue;
+  }
+  
+  .skills {
+    color: aliceblue;
+    height: fit-content;
+  }
+
+  .cert-card {
+    display: flex;
+    z-index: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cert-card img {
+    flex-direction: column;
+    margin: 20px;
+    z-index: 1;
+    width: 600px;
+  }
+
+  .cert-card img:hover {
+    transform: scale(1.05); 
+    transition: transform 0.3s ease; 
+  }
